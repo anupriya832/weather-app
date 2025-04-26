@@ -17,7 +17,7 @@ export const Dashboard = () => {
                 <img src ={SunCloudy} alt=""/>
                 <div> 
                     <div>
-                        <span> London,UK</span>
+                        <span> London , UK</span>
                         <span> Partly Cloudy</span>
                     </div>
                 <div>

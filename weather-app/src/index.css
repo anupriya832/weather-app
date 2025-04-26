@@ -11,9 +11,32 @@
   min-height:100vh;
   background-image: radial-gradient(
     circle 382px at 50% 50.2%,
-    rgb(51, 142, 198) 0.1%,
-    rgb(6, 116, 184)100.2%);
-
-
-  overflow: hidden;
+    rgba(72, 76, 212,1) 0.1%,
+    rgba(3,1,50,1)100.2%);
+    overflow: hidden;
 }
+@keyframes slide-up{
+  100%{
+    transform:translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-right{
+  100%{
+    transform:translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-down{
+  100%{
+    transform:translateY(-50%);
+    opacity: 1;
+  }
+}
+@keyframes zoom-in{
+  100%{
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+

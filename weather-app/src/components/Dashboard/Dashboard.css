@@ -9,6 +9,9 @@
 }
 .dashboard-section .home{
     width:84%;
+    opacity: 0;
+    transform: translateY(200px);
+    animation: slide-up 1s ease forwards;
 }
 
 .feed-1{
@@ -202,6 +205,10 @@
     padding: 20px 15px 20px 15px;
     color: #fff;
     margin-top: -2%;
+    opacity: 0;
+    transform: translateX(200px);
+    animation: slide-right 1s ease forwards;
+    animation-delay: 0.2s;
 }
 
 .cities h2{
@@ -262,7 +269,7 @@
     width: 100%;
     padding: 15px 0;
     cursor: pointer;
-    background: #0154a2;
+    background: #409ac7;
     border: none;
     font-size: 1rem;
     color: #fff;
